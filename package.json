@@ -1,9 +1,10 @@
 {
   "name": "aula",
   "version": "1.0.0",
-  "main": "index.js",
+  
   "scripts": {
     "dev": "parcel src/index.html src/assets/main.scss src/assets/main.js",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "description": "",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.2",
-    "parcel": "^2.13.2"
+    "parcel": "^2.13.2",
+    "sharp": "^0.33.5"
   }
 }
